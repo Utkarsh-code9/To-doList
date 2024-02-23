@@ -147,8 +147,3 @@ const cursor = document.querySelector(".cursor");
     document.addEventListener("mouseout", () => {
       cursor.style.display = "none";
     });
-//this is for the NAVBAR hireme. Don't do anything with this.
-let hireme = document.getElementById('hireme')
-hireme.addEventListener("click", ()=>{
-  window.open('https://fiverr.com/cleverhare', '_blank');
-})
